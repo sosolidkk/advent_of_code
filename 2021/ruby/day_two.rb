@@ -1,6 +1,6 @@
 # part 1
 depth, position, aim = 0, 0
-file_reader = File.open('input_two_part_one.txt')
+file_reader = File.open('inputs/input_two_part_one.txt')
 data = file_reader.readlines.map(&:chomp)
 
 data.each do |item|
@@ -19,7 +19,7 @@ puts(depth * position)
 
 # part 2
 depth, position, aim = 0, 0, 0
-file_reader = File.open('input_two_part_two.txt')
+file_reader = File.open('inputs/input_two_part_two.txt')
 data = file_reader.readlines.map(&:chomp)
 
 data.each do |item|
